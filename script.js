@@ -14,11 +14,11 @@ const PASSWORD_REGEX =
 /*Funciones auxiliares */
 
 const isEmpty = (value) => {
-  value === "";
+  return value === "";
 };
 
 const isBetween = (min, max, length) => {
-  length >= min && length <= max;
+  return length >= min && length <= max;
 };
 
 const isEmailValid = (email) => {
