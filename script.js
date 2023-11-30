@@ -84,10 +84,10 @@ const checkEmail = () => {
 const checkPassword = () => {
   let valid = false;
   const password = passwordInput.value.trim();
-  console.log(password);
+
   if (isEmpty(password)) {
     showError(passwordInput, "Password is required.");
-  } else if (isPasswordValid(password)) {
+  } else if (!isPasswordValid(password)) {
     showError(
       passwordInput,
       "the password must have between 8 and 15 characters"
