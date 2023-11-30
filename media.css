@@ -1,0 +1,49 @@
+@media (max-width: 480px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/bg-intro-mobile.png);
+    background-color: var(--Red);
+  }
+
+  section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #head {
+    padding: 40px 0px 60px;
+    text-align: center;
+  }
+
+  .try {
+    width: 360px;
+    text-align: center;
+    padding: 30xpx;
+  }
+
+  #section__form {
+    padding: 40px 0px 60px;
+  }
+
+  .form__container {
+    width: 360px;
+    padding: 20px;
+  }
+
+  .form__container input {
+    width: 300px;
+  }
+
+  small {
+    text-align: center;
+  }
+
+  a{
+    text-decoration:none ;
+  }
+}

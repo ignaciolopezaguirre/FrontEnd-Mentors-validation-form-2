@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./media.css" />
+  </head>
+  <body>
+    <main>
+      <section id="head">
+        <h1>Learn to code by watching others</h1>
+        <p class="learn">
+          See how experienced develorpers solve problems in real time. Watching
+          scripted tutorials is great,but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+
+      <section id="section__form">
+        <p class="try">
+          <strong>Try it free for 7 days</strong> then $20/mon. Thereafter.
+        </p>
+        <form class="form__container" id="form">
+          <div class="form__field">
+            <input
+              type="text"
+              placeholder="Name"
+              class="form__input"
+              id="name"
+              required
+              autocomplete="off"
+            />
+            <small class="error-text"></small>
+          </div>
+
+          <div class="form__field">
+            <input
+              type="text"
+              placeholder="Last name"
+              class="form__input"
+              id="last-name"
+              required
+              autocomplete="of"
+            />
+            <small class="error-text"></small>
+          </div>
+
+          <div class="form__field">
+            <input
+              type="email"
+              placeholder="Email"
+              id="email"
+              class="form__input"
+              required
+              autocomplete="off"
+            />
+            <small class="error-text"></small>
+          </div>
+
+          <div class="form__field">
+            <input
+              type="password"
+              id="password"
+              placeholder="Password"
+              class="form__input"
+              required
+              autocomplete="off"
+            />
+            <small class="error-text"></small>
+          </div>
+          <div class="form__submit">
+            <input type="submit" value="CLAIM YOUR FREE TRIAL" class="btn" />
+          </div>
+          <small
+            >By clicking the button you are agreeing to our
+            <a href="#">Terms and services</a></small
+          >
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Ignacio Lopez Aguirre</a>.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
