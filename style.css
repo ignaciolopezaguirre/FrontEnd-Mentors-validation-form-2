@@ -111,7 +111,7 @@ h1 {
 
 .error {
   background-repeat: no-repeat;
-  border: 1px solid var(--Red);
+  border: 2px solid var(--Red);
   background-image: url(./images/icon-error.svg);
   background-position: 95% 50%;
   border-radius: 5px;
@@ -132,6 +132,7 @@ h1 {
 
 .success {
   border: 2px solid var(--Green);
+  border-radius: 5px;
 }
 
 input:focus,
